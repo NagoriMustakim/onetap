@@ -1,0 +1,119 @@
+.safer {
+    width: 580px;
+    height: 526px;
+    margin-top: 15rem;
+    margin-left: 100px;
+    /* border: 2px solid black; */
+}
+
+.safer-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: left;
+}
+
+.first-txt {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.learn-btn {
+    width: 307px;
+    height: 67.2px;
+    font-size: 21.6px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 66px;
+    background: #D7068B;
+}
+
+
+.img-home1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+}
+
+.img-home2 {
+    position: absolute;
+    top: 120%;
+    left: 51%;
+    z-index: 2;
+}
+
+.img-home3 {
+    margin-right: 8rem;
+}
+
+.img-home4 {
+    position: absolute;
+    right: 90%;
+    top: 235%;
+}
+
+
+.img-home5 {
+    position: absolute;
+    top: 225%;
+    left: 37%;
+    z-index: 1;
+}
+
+.img-home52 {
+    position: absolute;
+    z-index: 2;
+    top: 280%;
+    left: 60%;
+}
+
+.img-home6 {
+    position: absolute;
+    right: 50%;
+    top: 295%;
+}
+
+.left-txt {
+    width: 40%;
+    height: 526px;
+    margin-top: 10rem;
+    margin-left: 45rem;
+    padding: 2rem;
+}
+
+.mt {
+    margin-top: 4rem;
+}
+
+.provider-name {
+    font-weight: bold;
+    color: #262262;
+}
+
+.response-time {
+    color: #262262;
+}
+
+.progress-bar-warpvpn {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+}
+
+.progress-bar-google,
+.progress-bar-opendns {
+    background-color: #d8d8d8;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    color: #333;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #333;
+}

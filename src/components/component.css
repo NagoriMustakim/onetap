@@ -1,0 +1,354 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100.26px;
+    margin-right: 234.26px;
+}
+
+.logo {
+    color: #D7068B;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 44.16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.families-txt {
+    color: #646363ff;
+    font-family: Clio Bold;
+    font-size: 21.6px;
+    font-weight: 700;
+    line-height: 21.6px;
+    /* text-align: left; */
+    /* margin-right: 8rem;
+    margin-top: 2.5rem; */
+}
+
+/* Download component css */
+.wrap-contrainer {
+    display: flex;
+    padding: 15px 0 0 0;
+    border-radius: 8rem;
+    gap: 1.8rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.windows-width {
+    width: 18rem;
+}
+
+.dynaBG {
+    background-color: #cecbc766;
+
+}
+
+.mac-width {
+    width: 14rem;
+}
+
+.linux-width {
+    width: 16rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    width: 34%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cmd {
+    border: 3px solid #dcdcdc;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 20px;
+    /* Add margin to separate from the text above */
+}
+
+.copy-logo {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.command-text {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 600;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 15px;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.download-block-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.buttons-downloads {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.buttons-downloads .btn {
+    padding: 0.5rem 0.5rem;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.buttons-downloads .btn svg,
+.buttons-downloads .btn img {
+    margin-right: 0.5rem;
+}
+
+.txt {
+    font-size: large;
+}
+
+.download-block {
+    margin-bottom: 0.5rem;
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-bottom: 2.2rem;
+    }
+
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+.download-banner-section {
+    display: flex;
+    align-items: center;
+}
+
+.download-banner-section {
+    align-items: flex-start;
+}
+
+.download-block {
+    p {
+        font-size: 18px;
+    }
+}
+
+.buttons-downloads {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+
+    .btn {
+        padding: 0.5rem 2.8rem;
+        height: 4.4rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.buttons-downloads {
+    .btn {
+        font-size: 1.6rem;
+    }
+}
+
+.buttons-downloads {
+    column-gap: 1rem;
+
+    .btn {
+        min-width: 20.3rem;
+        font-weight: 500;
+    }
+
+    .btn+.btn {
+        margin-left: 0;
+    }
+}
+
+.title-home {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117.76px;
+    text-align: left;
+    color: #D7068B;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 2rem;
+    background: linear-gradient(180deg, #ff9749 2.6%, #ff6d00 78.97%);
+    border: 1px solid #ff6d00;
+    color: #fff;
+    border-radius: 10rem;
+    min-width: 10rem;
+
+}
+
+.btn:hover {
+    background: #fff0e5;
+    color: #ff6d00;
+    border: 1px solid #ff6d00;
+}
+
+.store-btn {
+    min-width: 2rem;
+    background-color: gray;
+    font-size: 10px;
+    padding: 2px;
+    border: 2px solid red;
+}
+
+
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: #555555;
+    /* Grey background color */
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.download-button img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.download-button span {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+.download-button span.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.download-button.apple {
+    background-color: #555555;
+    /* Apple button color */
+}
+
+.download-button.google {
+    background-color: #4285F4;
+    /* Google button color */
+}
+
+
+.footer-container {
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 8rem;
+}
+
+.footer-logo h1 {
+    color: #D7068B;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.footer-logo p {
+    margin-top: 10px;
+    color: #333333;
+    max-width: 400px;
+    font-size: 21.44px;
+}
+
+.footer-links {
+    margin-top: 30px;
+    font-size: 21.44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    height: 32.17px;
+    font-weight: 500;
+}
+
+.footer-links a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.cpr {
+    margin-right: 4rem;
+    font-size: 18.76px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
