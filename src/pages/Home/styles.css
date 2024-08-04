@@ -35,15 +35,15 @@
 
 .img-home1 {
     position: absolute;
-    top: 45%;
+    top: 95%;
     left: 50%;
     z-index: 1;
 }
 
 .img-home2 {
     position: absolute;
-    top: 120%;
-    left: 51%;
+    top: 142%;
+    left: 65%;
     z-index: 2;
 }
 
@@ -54,13 +54,13 @@
 .img-home4 {
     position: absolute;
     right: 90%;
-    top: 235%;
+    top: 265%;
 }
 
 
 .img-home5 {
     position: absolute;
-    top: 225%;
+    top: 255%;
     left: 37%;
     z-index: 1;
 }
@@ -68,14 +68,14 @@
 .img-home52 {
     position: absolute;
     z-index: 2;
-    top: 280%;
+    top: 315%;
     left: 60%;
 }
 
 .img-home6 {
     position: absolute;
     right: 50%;
-    top: 295%;
+    top: 330%;
 }
 
 .left-txt {

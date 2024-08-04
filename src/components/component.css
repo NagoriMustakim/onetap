@@ -95,7 +95,6 @@
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-top: 20px;
-    /* Add margin to separate from the text above */
 }
 
 .copy-logo {
@@ -108,7 +107,6 @@
     margin: 0;
     padding: 0 10px;
     font-weight: 600;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 15px;
 }
 
@@ -225,6 +223,7 @@
     line-height: 117.76px;
     text-align: left;
     color: #D7068B;
+    margin-top: 13rem;
 }
 
 .btn {

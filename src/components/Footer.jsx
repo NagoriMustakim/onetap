@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <div>
-
-      <hr className='center w-25 ' />
-
+    <div style={{ marginTop: "25rem" }}>
+      <hr
+        style={{
+          width: "1715.56px",
+          background: "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(80, 60, 130, 0.7) 47.1%, rgba(255, 255, 255, 0) 100%)",
+          height: "2px",
+        }}
+      />
       <Container className="footer-container">
         <div className="footer-content">
           <div className="footer-logo">
@@ -19,15 +23,22 @@ export const Footer = () => {
           </div>
 
           <div className="footer-links">
-            <Link to={'/FAQ'}>FAQ</Link>
-            <Link to={'/services'}>Terms of Service</Link>
+            <Link to={'/faq'}>FAQ</Link>
+            <Link to={'/service'}>Terms of Service</Link>
             <Link to={'/policy'}>Privacy Policy</Link>
-            <Link to={'/cache'}>Purge Cache</Link>
+            <Link to={'/purge'}>Purge Cache</Link>
           </div>
         </div>
       </Container>
-      <hr className='center w-25 ' />
-      <p className='text-end cpr'>Copyright © 2024 LookFront Video Communications, Inc. All rights reserved</p>
+      <hr
+        style={{
+          width: "1715.56px",
+          background: "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(80, 60, 130, 0.7) 47.1%, rgba(255, 255, 255, 0) 100%)",
+          height: "2px",
+        }}
+      />
+
+      <p className='text-end cpr'>Copyright © 2024 WARPVPN, Inc. All rights reserved</p>
     </div>
   )
 }
