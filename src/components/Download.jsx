@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
 import GooglePlayStore from "../assets/google-play-store.svg";
 import windowLogo from "../assets/window-logo.svg";
 import macLogo from "../assets/mac-logo.svg";
@@ -53,7 +52,7 @@ export const Download = () => {
               <div className="download-block wrap-contrainer windows-width" onClick={() => handleOsChange('windows')}>
                 <div className="buttons-downloads">
                   <Image src={windowLogo} alt="Windows" />
-                  <div className='center' style={{ fontWeight: "bold", fontSize: "24px" }}>Windows 10/11</div>
+                  <div className='center os-text'>Windows 10/11</div>
                 </div>
               </div>
             </Col>
@@ -61,7 +60,7 @@ export const Download = () => {
               <div className="download-block wrap-contrainer mac-width" onClick={() => handleOsChange('mac')}>
                 <div className="buttons-downloads">
                   <Image src={macLogo} alt="MacOS" />
-                  <div className='center' style={{ fontWeight: "bold", fontSize: "24px" }}>MacOS</div>
+                  <div className='center os-text'>MacOS</div>
                 </div>
               </div>
             </Col>
@@ -69,7 +68,7 @@ export const Download = () => {
               <div className="download-block wrap-contrainer linux-width" onClick={() => handleOsChange('linux')}>
                 <div className="buttons-downloads">
                   <Image src={ubantuLogo} alt="Ubuntu" />
-                  <div className='center' style={{ fontWeight: "bold", fontSize: "24px" }}>Ubuntu</div>
+                  <div className='center os-text'>Ubuntu</div>
                 </div>
               </div>
             </Col>
@@ -77,7 +76,7 @@ export const Download = () => {
 
           <div className="copy_part">
             <div className="text-center">
-              <p>{`Quick install by copy the command for your ${os === "windows" ? "Windows" : os === "mac" ? "OS" : "OS"}, paste it in your ${os === "windows" ? "Command Prompt" : os === "mac" ? "Terminal" : "Terminal"}, and start using ZataHub!`}</p>
+              <p>{`Quick install by copy the command for your ${os === "windows" ? "Windows" : os === "mac" ? "MacOS" : "Ubuntu"}, paste it in your ${os === "windows" ? "Command Prompt" : os === "mac" ? "Terminal" : "Terminal"}, and start using WarpVPN!`}</p>
             </div>
             <div className="download-block cmd">
               <img src={copyLogo} alt="Copy" className="copy-logo" />

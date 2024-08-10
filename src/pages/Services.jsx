@@ -2,11 +2,12 @@ import React from 'react'
 
 export const Services = () => {
   return (
-    <div className='d-flex flex-column mb-3 faq-cont' style={{ background: "#FFEEF7" }}>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '5rem' }}>
-        <p style={{ color: "#FF6D00", fontSize: "18px", fontWeight: "500" }}>Last updated: November 24, 2023</p>
-        <h1 style={{ fontSize: "45px", fontWeight: "bold", marginBottom: "6rem" }}>Terms of Service</h1>
+    <div className='d-flex flex-column mb-3 faq-cont faq-container'>
+      <div className='faq-header'>
+        <p className='last-updated'>Last updated: November 24, 2023</p>
+        <h1 className='terms-title'>Terms of Service</h1>
       </div>
+
       <div className="outer-container">
         <div className="inner-container">
           <ol className="terms-list">
@@ -41,7 +42,7 @@ export const Services = () => {
             This content is a starting point and may need adjustments to fit the specific nature of your web app. It's highly recommended to consult with legal professionals to ensure compliance with relevant laws and regulations in your jurisdiction.
           </p>
         </div>
-      </div>        
-      </div >
+      </div>
+    </div >
   )
 }

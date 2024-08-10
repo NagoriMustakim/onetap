@@ -14,7 +14,7 @@ export const Home = () => {
   return (
     <>
       <Download />
-      <div className=''>
+      <div>
         <Container className='d-flex flex-row'>
           <div className='safer'>
             <p className='safer-title'>
@@ -29,7 +29,7 @@ export const Home = () => {
           <Image src={Home2} className='img-home2'></Image>
           <Image src={Home1} className='img-home1'></Image>
         </Container>
-        <Container className='d-flex flex-row'>
+        <div className='d-flex flex-row'>
           <Image src={Home3} className='img-home3'></Image>
           <div className='mt'>
             <p className='safer-title'>Fast. Free. Private.</p>
@@ -38,7 +38,7 @@ export const Home = () => {
               WarpVPN prevents anyone from snooping on you by encrypting more of the traffic leaving your device. We believe privacy is a right. We won't sell your data, ever.</p>
             <button className='learn-btn'>Share with twitter</button>
           </div>
-        </Container>
+        </div>
         <Container className='d-flex flex-row'>
           <Image src={Home4} className='img-home4'></Image>
           <div className='safer'>
@@ -108,7 +108,7 @@ export const Home = () => {
 
 
         <Container className='d-flex flex-row'>
-          <div className='safer'>
+          <div className='safer available'>
             <p className='safer-title'>
               Now available for macOS and Windows
             </p>
@@ -117,12 +117,12 @@ export const Home = () => {
               We’ve extended the same protection to macOS and Windows.</p>
             <button className='learn-btn'>Learn More</button>
           </div>
-          <Image src={Home7}></Image>
+          <Image src={Home7} className='img-home7'></Image>
         </Container>
 
         <Container className='d-flex flex-row'>
-          <Image src={Home8}></Image>
-          <div className='' style={{ width: "30%" , marginLeft: "14rem"}}>
+          <Image src={Home8} className='img-home8'></Image>
+          <div className='fast'>
             <p className='safer-title'>Fast. Free. Private.</p>
             <hr className="hr" />
             <p className='first-txt'>Your Internet service provider can see every site and app you use even if they’re encrypted. Some providers even sell this data, or use it to target you with ads.

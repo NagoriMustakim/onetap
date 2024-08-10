@@ -101,6 +101,29 @@ body {
     font-weight: 700;
 }
 
+.faq-container {
+    background: #FFEEF7;
+}
+
+.faq-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.last-updated {
+    color: #FF6D00;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.terms-title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 6rem;
+}
+
 
 .outer-container {
     display: flex;
@@ -143,4 +166,36 @@ body {
     margin-top: 20px;
     font-size: 14px;
     color: #555555;
+}
+
+.display-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.faq {
+    margin-top: "6rem";
+    margin-bottom: "4rem";
+}
+
+@media (max-width: 1000px) {  
+
+    .faq {
+        margin: 0;
+    }
+
+    .display-col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .display-col img {
+        width: 500px;
+    }
+    .faq-header{
+        margin-top: 10px;
+    }
+    .inner-container{
+        margin-top: 3rem;
+    }
 }

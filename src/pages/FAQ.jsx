@@ -6,10 +6,10 @@ export const FAQ = () => {
     <div>
       <div className='faq-cont'>
         <div className='center'>
-          <p className='sub-title2' style={{ marginTop: "6rem", marginBottom: "4rem" }}>Frequently Asked Questions</p>
+          <p className='sub-title2 faq'>Frequently Asked Questions</p>
         </div>
 
-        <div className='d-flex flex-row faq-q'>
+        <div className='display-col'>
           <Image src={Home7}></Image>
           <div className='accordian'>
             <Accordion defaultActiveKey="0">
@@ -37,7 +37,7 @@ export const FAQ = () => {
                   Does WARPVPN have IPv6 support?
                 </AccordionHeader>
                 <AccordionBody>
-                  Yes
+                  Yes WARPVPN has full IPv6 support.
                 </AccordionBody>
               </AccordionItem>
               <AccordionItem eventKey="3">
@@ -45,7 +45,7 @@ export const FAQ = () => {
                   How can I clear WARPVPN’s DNS cache?
                 </AccordionHeader>
                 <AccordionBody>
-                  Restart the WARPVPN
+                  You can refresh WARPVPN DNS cache for domain names by using the purge cache tool. You have to enter the domain name, pick the DNS record type (or types) and hit the ‘Purge Cache’ button.
                 </AccordionBody>
               </AccordionItem>
             </Accordion>

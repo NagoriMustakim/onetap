@@ -3,7 +3,6 @@
     height: 526px;
     margin-top: 15rem;
     margin-left: 100px;
-    /* border: 2px solid black; */
 }
 
 .safer-title {
@@ -78,6 +77,20 @@
     top: 330%;
 }
 
+.img-home7 {
+    width: max-content;
+}
+
+
+.available {
+    width: 100%;
+}
+
+.fast {
+    width: "30%";
+    margin-left: "14rem";
+}
+
 .left-txt {
     width: 40%;
     height: 526px;
@@ -116,4 +129,95 @@ hr {
     width: 60px;
     border-radius: 10px;
     background-color: #333;
+}
+
+@media (max-width: 1000px) {
+
+    .safer {
+        margin-left: 0;
+        width: 400px;
+    }
+
+    .safer-title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .first-txt {
+        font-size: 17px;
+    }
+
+    .learn-btn {
+        width: 200px;
+        font-size: 19px;
+    }
+
+    .img-home1 {
+        top: 130%;
+        left: 38%;
+    }
+
+    .img-home2 {
+        top: 190%;
+        left: 58%;
+        width: 400px;
+    }
+
+    .img-home3 {
+        margin-right: 2rem;
+        width: 500px;
+    }
+
+    .img-home4 {
+        top: 245%;
+    }
+
+    .img-home5 {
+        width: 1000px;
+        top: 330%;
+    }
+
+    .img-home52 {
+        position: absolute;
+        top: 374%;
+        left: 60%;
+        width: 400px;
+    }
+
+    .img-home6 {
+        right: 50%;
+        top: 410%;
+        width: 600px;
+    }
+
+    .left-txt {
+        margin-left: 20rem;
+        width: max-content;
+    }
+
+    .col-md-8 {
+        margin-left: 1.5rem;
+    }
+
+    .img-home7 {
+        width: 400px;
+        margin-left: 1rem;
+        margin-top: 6rem;
+        margin: 0;
+        display: none;
+    }
+
+    .available {
+        width: 80%;
+        padding: 20px;
+        margin: 2 0 0 2rem;
+    }
+
+    .img-home8 {
+        display: none;
+    }
+
+    .fast{
+        width: max-content;
+    }
 }

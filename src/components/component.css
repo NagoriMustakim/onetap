@@ -250,7 +250,6 @@
     background-color: gray;
     font-size: 10px;
     padding: 2px;
-    border: 2px solid red;
 }
 
 
@@ -350,4 +349,42 @@
     font-size: 18.76px;
     font-weight: 700;
     margin-bottom: 4rem;
+}
+
+.os-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    .title-home {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .windows-width {
+        width: 15rem;
+        margin-left: 2rem;
+    }
+
+    .mac-width {
+        width: 10rem;
+    }
+
+    .linux-width {
+        width: 12rem;
+    }
+
+    .os-text {
+        font-size: 18px;
+    }
+
+    .text-center {
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .download-buttons {
+        width: 400px;
+    }
 }
