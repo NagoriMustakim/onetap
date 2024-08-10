@@ -29,7 +29,7 @@ export const Home = () => {
           <Image src={Home2} className='img-home2'></Image>
           <Image src={Home1} className='img-home1'></Image>
         </Container>
-        <div className='d-flex flex-row'>
+        <div className='d-flex flex-row mt-12'>
           <Image src={Home3} className='img-home3'></Image>
           <div className='mt'>
             <p className='safer-title'>Fast. Free. Private.</p>

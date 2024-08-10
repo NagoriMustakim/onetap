@@ -178,7 +178,7 @@ body {
     margin-bottom: "4rem";
 }
 
-@media (max-width: 1000px) {  
+@media (max-width: 991px) {
 
     .faq {
         margin: 0;
@@ -192,10 +192,52 @@ body {
     .display-col img {
         width: 500px;
     }
-    .faq-header{
+
+    .faq-header {
         margin-top: 10px;
     }
-    .inner-container{
+
+    .inner-container {
         margin-top: 3rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .faq {
+        margin: 0;
+    }
+
+    .display-col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .display-col img {
+        width: 500px;
+    }
+
+    .faq-header {
+        margin-top: 10px;
+    }
+
+    .inner-container {
+        margin-top: 3rem;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+
+    .img-fam2 {
+        top: 190%;
+        width: 500px;
+    }
+
+    .img-fam3 {
+        top: 250%;
+    }
+
+    .img-fam4{
+        top: 320%;
     }
 }

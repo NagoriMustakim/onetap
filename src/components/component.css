@@ -302,36 +302,49 @@
 }
 
 
+/* START FOOTER CSS */
+
+.custom-container {
+    margin-top: 25rem;
+}
+
+/* Base styles for larger screens */
+.custom-hr {
+    width: 80vw;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(80, 60, 130, 0.7) 47.1%, rgba(255, 255, 255, 0) 100%);
+    height: 2px;
+}
+
 .footer-container {
     padding: 20px 0;
 }
 
 .footer-content {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 8rem;
+    gap: 4rem;
 }
 
 .footer-logo h1 {
     color: #D7068B;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .footer-logo p {
     margin-top: 10px;
     color: #333333;
-    max-width: 400px;
-    font-size: 21.44px;
+    max-width: 100%;
+    font-size: 1.3rem;
 }
 
 .footer-links {
-    margin-top: 30px;
-    font-size: 21.44px;
+    margin-top: 2rem;
+    font-size: 1.3rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
-    height: 32.17px;
+    gap: 2rem;
     font-weight: 500;
 }
 
@@ -343,6 +356,63 @@
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .custom-container {
+        margin-top: 15rem;
+    }
+
+    .custom-hr {
+        width: 90vw;
+    }
+
+    .footer-logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer-logo p,
+    .footer-links {
+        text-align: center;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .footer-content {
+        gap: 1.5rem;
+    }
+
+    .custom-container {
+        margin-top: 10rem;
+    }
+
+    .custom-hr {
+        width: 95vw;
+    }
+
+    .footer-logo h1 {
+        font-size: 2rem;
+    }
+
+    .footer-logo p,
+    .footer-links {
+        font-size: 1rem;
+    }
+
+    .footer-links {
+        gap: 1rem;
+    }
+}
+
+
+/* END FOOTER CSS */
 
 .cpr {
     margin-right: 4rem;
@@ -356,7 +426,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .title-home {
         font-size: 60px;
         text-align: center;
@@ -382,6 +452,39 @@
     .text-center {
         margin-top: 2rem;
         width: 90%;
+    }
+
+    .download-buttons {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-home {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .windows-width {
+        width: 15rem;
+        margin-left: 2rem;
+    }
+
+    .mac-width {
+        width: 10rem;
+    }
+
+    .linux-width {
+        width: 12rem;
+    }
+
+    .os-text {
+        font-size: 18px;
+    }
+
+    .text-center {
+        margin-top: 2rem;
+        width: 70%;
     }
 
     .download-buttons {

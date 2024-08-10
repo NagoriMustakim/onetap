@@ -1,17 +1,12 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
-    <div style={{ marginTop: "25rem" }}>
-      <hr
-        style={{
-          width: "1715.56px",
-          background: "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(80, 60, 130, 0.7) 47.1%, rgba(255, 255, 255, 0) 100%)",
-          height: "2px",
-        }}
-      />
+    <div className='custom-container'>
+      <hr className='custom-hr' />
+
       <Container className="footer-container">
         <div className="footer-content">
           <div className="footer-logo">
@@ -30,15 +25,12 @@ export const Footer = () => {
           </div>
         </div>
       </Container>
-      <hr
-        style={{
-          width: "1715.56px",
-          background: "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(80, 60, 130, 0.7) 47.1%, rgba(255, 255, 255, 0) 100%)",
-          height: "2px",
-        }}
-      />
 
-      <p className='text-end cpr'>Copyright © 2024 WARPVPN, Inc. All rights reserved</p>
+      <hr className='custom-hr' />
+
+      <p className='text-end cpr'>
+        Copyright © 2024 WARPVPN, Inc. All rights reserved
+      </p>
     </div>
-  )
-}
+  );
+};
