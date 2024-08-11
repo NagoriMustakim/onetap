@@ -315,7 +315,7 @@ hr {
 }
 
 
-@media (min-width: 1201px) and (max-width: 1500px) {
+@media (min-width: 1201px) and (max-width: 1700px) {
     .img-home4 {
         top: 230%
     }
@@ -333,7 +333,7 @@ hr {
     }
 }
 
-@media (min-width: 1500px) and (max-width: 4000px) {
+@media (min-width: 1700px) and (max-width: 4000px) {
     .img-home2{
         top: 130%;
         left: 58%;

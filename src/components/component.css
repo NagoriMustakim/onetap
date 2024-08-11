@@ -19,9 +19,83 @@
     font-size: 21.6px;
     font-weight: 700;
     line-height: 21.6px;
-    /* text-align: left; */
-    /* margin-right: 8rem;
-    margin-top: 2.5rem; */
+}
+
+
+.drp {
+    position: relative;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 12px;
+    margin-left: 2rem;
+}
+
+
+/* General dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+/* Button for dropdown with label and SVG */
+.dropdown-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #1F1F6D;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+}
+
+/* Label inside button */
+.dropdown-label {
+    margin-right: 8px;
+}
+
+/* Dropdown content hidden by default */
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 120px;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Dropdown link styling */
+.dropdown-content a {
+    color: #1F1F6D;
+    padding: 2px 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Last link without border */
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+/* Change background color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown when clicking the button */
+.dropdown.active .dropdown-content {
+    display: block;
+}
+
+/* Button hover effect */
+.dropdown-btn:hover {
+    color: #1F1F6D;
 }
 
 /* Download component css */
