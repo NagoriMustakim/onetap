@@ -34,11 +34,11 @@ export const Download = () => {
 
   const getCommand = () => {
     if (os === 'windows') {
-      return "Invoke-WebRequest -Uri https://safevpn-dev.com/install.bat -OutFile install.bat; Start-Process cmd.exe -ArgumentList '/c install.bat'";
+      return "Invoke-WebRequest -Uri https://warpvpn.net/install.bat -OutFile install.bat; Start-Process cmd.exe -ArgumentList '/c install.bat'";
     } else if (os === 'mac') {
-      return "curl -sSL -O https://safevpn-dev.com/install.sh && sh install.sh";
+      return "curl -sSL -O https://warpvpn.net/install.sh && sh install.sh";
     } else if (os === 'linux') {
-      return "curl -sSL -O https://safevpn-dev.com/install-linux.sh && bash install-linux.sh";
+      return "curl -sSL -O https://warpvpn.net/install-linux.sh && bash install-linux.sh";
     }
     return '';
   };
@@ -122,7 +122,7 @@ export const Download = () => {
                     </div>
                   </div>
                 </div>
-                <p style={{ fontWeight: 500, marginTop: "10px" }}>Expected to release by end of September 2024</p>
+                <p style={{ fontWeight: 500, marginTop: "10px" }}>Expected to release by end of November 2024</p>
               </div>
             </Col>
           </div>

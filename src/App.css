@@ -226,7 +226,7 @@ body {
 }
 
 
-@media (min-width: 1201px) and (max-width: 1700px) {
+@media (min-width: 1201px) and (max-width: 1500px) {
 
     .img-fam2 {
         top: 190%;
@@ -237,7 +237,25 @@ body {
         top: 250%;
     }
 
-    .img-fam4{
+    .img-fam4 {
         top: 320%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 4000px) {
+    .sub-txt{
+        margin-left: 89rem;
+    }
+     .img-fam2 {
+        top: 190%;
+        width: 500px;
+    }
+
+    .img-fam3 {
+        top: 240%;
+    }
+
+    .img-fam4 {
+        top: 310%;
     }
 }

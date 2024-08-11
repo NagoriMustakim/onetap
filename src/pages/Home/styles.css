@@ -315,19 +315,44 @@ hr {
 }
 
 
-@media (min-width: 1201px) and (max-width: 1700px) {
+@media (min-width: 1201px) and (max-width: 1500px) {
     .img-home4 {
         top: 230%
     }
-    .img-home5{
+
+    .img-home5 {
         top: 205%;
     }
 
-    .img-home52{
+    .img-home52 {
         top: 255%;
     }
 
-    .img-home6{
+    .img-home6 {
         top: 280%;
     }
+}
+
+@media (min-width: 1500px) and (max-width: 4000px) {
+    .img-home2{
+        top: 130%;
+        left: 58%;
+    }
+    .img-home4 {
+        top: 230%
+    }
+
+    .img-home5 {
+        top: 190%;
+        left: 50%;
+    }
+
+    .img-home52 {
+        top: 240%;
+    }
+
+    .img-home6 {
+        top: 260%;
+    }
+
 }
