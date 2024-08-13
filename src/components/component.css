@@ -500,7 +500,10 @@
     font-size: 24px;
 }
 
-@media (max-width: 991px) {
+
+
+
+/* @media (max-width: 991px) {
     .title-home {
         font-size: 60px;
         text-align: center;
@@ -564,4 +567,4 @@
     .download-buttons {
         width: 400px;
     }
-}
+} */

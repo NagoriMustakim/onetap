@@ -6,7 +6,6 @@ import fam3 from '../assets/home6.svg';
 import fam4 from '../assets/fam4.svg';
 import fam5 from '../assets/fam5.svg';
 import { Container, Image } from 'react-bootstrap';
-
 export const Families = () => {
   return (
     <div>
@@ -16,18 +15,19 @@ export const Families = () => {
       </div>
       <Image src={Home9} style={{ marginLeft: "8rem" }} />
 
-      <div className='safer'>
-        <p className='safer-title'>
-          Protecting home Internet connections from malware.
-        </p>
-        <hr className="hr" />
-        <p className='first-txt'>With home Internet usage on the rise, it’s never been more important to protect your family from dangerous and malicious sites.
-          Warp for Families is built on top of the same site categorization and filtering technology that powers Cloudflare’s enterprise products. It uses Cloudflare’s Internet intelligence to filter content on your home Internet network.</p>
+      <div className='d-flex flex-row'>
+        <div className='pro'>
+          <p className='safer-title'>
+            Protecting home Internet connections from malware.
+          </p>
+          <hr className="hr" />
+          <p className='first-txt'>With home Internet usage on the rise, it’s never been more important to protect your family from dangerous and malicious sites.
+            Warp for Families is built on top of the same site categorization and filtering technology that powers Cloudflare’s enterprise products. It uses Cloudflare’s Internet intelligence to filter content on your home Internet network.</p>
+        </div>
+
+        <Image src={fam2} className='img-fam2'></Image>
+        <Image src={Home1} className='img-fam1'></Image>
       </div>
-
-      <Image src={fam2} className='img-fam2'></Image>
-      <Image src={Home1} className='img-fam1'></Image>
-
       <div className='center'>
         <p className='sub-title2'>Built on a massive network</p>
       </div>
@@ -85,12 +85,12 @@ export const Families = () => {
 
       <Container className='d-flex flex-row'>
         <Image src={fam3} className='img-fam3'></Image>
-        <Image src={fam4} className='img-fam4' />
-        <div className='' style={{ width: "40%", marginLeft: "50rem", marginTop: "14rem" }}>
+        <div className='adult-margin'>
           <p className='safer-title'>Adult content filtering.</p>
           <hr className="hr" />
           <p className='first-txt'>Keep adult content away from kids on your network with always-on content controls.</p>
         </div>
+        <Image src={fam4} className='img-fam4' />
       </Container>
 
       <Container className='d-flex flex-row' style={{ marginTop: "12rem" }}>
@@ -110,7 +110,7 @@ export const Families = () => {
       </div>
       <p className='sub-txt'>Warp for Families has two options: one that blocks only malware and another that blocks both malware and adult content. You can install it by changing the IP address settings on your home Internet router.</p>
 
-      <Container className='d-flex justify-content-between' style={{marginTop:"4rem"}}>
+      <Container className='d-flex justify-content-between' style={{ marginTop: "4rem" }}>
         <div style={{ border: '1px solid #000', borderRadius: '30px', padding: '50px', width: '45%' }}>
           <h3>Malware Blocking Only</h3>
           <p className='ft'>Change your router DNS to:</p>

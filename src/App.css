@@ -40,30 +40,28 @@ body {
 }
 
 .img-fam1 {
-    position: absolute;
-    top: 150%;
-    left: 50%;
+    position: relative;
+    right: 35%;
     z-index: 1;
 }
 
 .img-fam2 {
-    position: absolute;
-    top: 228%;
-    left: 60%;
+    position: relative;
+    left: 18%;
     z-index: 2;
 }
 
 .img-fam3 {
-    position: absolute;
-    right: 50%;
+    position: relative;
+    /* right: 50%; */
     top: 300%;
     z-index: 1;
 }
 
 .img-fam4 {
-    position: absolute;
-    right: 50%;
-    top: 390%;
+    position: relative;
+    /* right: 50%; */
+    /* top: 390%; */
     z-index: 2;
 }
 
@@ -178,6 +176,14 @@ body {
     margin-bottom: "4rem";
 }
 
+
+.pro {
+    min-width: 555px;
+    height: 526px;
+    margin-top: 15rem;
+    margin-left: 100px;
+}
+
 @media (max-width: 991px) {
 
     .faq {
@@ -202,7 +208,10 @@ body {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+.adult-margin{
+    margin-top: 14rem;
+}
+@media (min-width: 900px) and (max-width: 1200px) {
     .faq {
         margin: 0;
     }
@@ -226,7 +235,7 @@ body {
 }
 
 
-@media (min-width: 1201px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 
     .img-fam2 {
         top: 190%;
@@ -234,28 +243,34 @@ body {
     }
 
     .img-fam3 {
-        top: 250%;
+        right: 20%;
     }
 
     .img-fam4 {
-        top: 320%;
+        margin-top: 20rem;
+       right: 90%;
+    }
+
+    .adult-margin{
+        margin-top: 44rem;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 4000px) {
-    .sub-txt{
-        margin-left: 89rem;
-    }
-     .img-fam2 {
-        top: 190%;
+    .img-fam2 {
         width: 500px;
     }
-
-    .img-fam3 {
-        top: 240%;
+    .img-fam3{
+        right: 25%;
     }
 
-    .img-fam4 {
-        top: 310%;
+    .img-fam4{
+        width: fit-content;
+        margin-top: 25rem;
+        right: 90%;
+    }
+
+    .adult-margin{
+        margin-top: 44rem;
     }
 }
