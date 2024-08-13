@@ -29,6 +29,7 @@ body {
     text-align: center;
     margin-top: 2rem;
     line-height: 100px;
+    font-family: Helvetica Neue;
 }
 
 .sub-txt {
@@ -37,6 +38,7 @@ body {
     font-weight: 600;
     text-align: center;
     margin-left: 25rem;
+    font-family: Helvetica Neue;
 }
 
 .img-fam1 {
@@ -69,6 +71,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 3rem;
+    font-family: Helvetica Neue;
 }
 
 
@@ -97,6 +100,12 @@ body {
 .accordian button {
     font-size: 25px;
     font-weight: 700;
+    font-family: 'League Spartan'
+}
+
+.accordion-body {
+    font-size: 20px;
+    font-family: 'League Spartan'
 }
 
 .faq-container {
@@ -114,12 +123,14 @@ body {
     color: #FF6D00;
     font-size: 18px;
     font-weight: 500;
+    font-family: Montserrat;
 }
 
 .terms-title {
-    font-size: 45px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
 }
 
 
@@ -127,12 +138,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    font-family: Montserrat;
 }
 
 .inner-container {
     width: 1076px;
-    height: 881px;
+    height: 1200px;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -143,7 +154,7 @@ body {
 
 .terms-list {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .terms-list li {
@@ -208,9 +219,10 @@ body {
     }
 }
 
-.adult-margin{
+.adult-margin {
     margin-top: 14rem;
 }
+
 @media (min-width: 900px) and (max-width: 1200px) {
     .faq {
         margin: 0;
@@ -248,10 +260,10 @@ body {
 
     .img-fam4 {
         margin-top: 20rem;
-       right: 90%;
+        right: 90%;
     }
 
-    .adult-margin{
+    .adult-margin {
         margin-top: 44rem;
     }
 }
@@ -260,17 +272,18 @@ body {
     .img-fam2 {
         width: 500px;
     }
-    .img-fam3{
+
+    .img-fam3 {
         right: 25%;
     }
 
-    .img-fam4{
+    .img-fam4 {
         width: fit-content;
         margin-top: 25rem;
         right: 90%;
     }
 
-    .adult-margin{
+    .adult-margin {
         margin-top: 44rem;
     }
 }

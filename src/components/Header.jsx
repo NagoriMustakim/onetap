@@ -22,7 +22,7 @@ export const Header = () => {
     }, []);
 
     return (
-        <main className='main mt-4'>
+        <main className='main'>
             <Link to={'/'} className='logo center'>WARPVPN</Link>
             <div className='d-flex flex-row'>
                 <Link to={'/families'} className='text-end'><p className='families-txt'>Families</p></Link>

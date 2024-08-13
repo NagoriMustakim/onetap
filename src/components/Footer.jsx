@@ -10,9 +10,13 @@ export const Footer = () => {
       <Container className="footer-container">
         <div className="footer-content">
           <div className="footer-logo">
-            <h1>WARPVPN</h1>
-            <p>
-              We are the bridge that connects hearts and minds globally. Through
+            <h1 style={{
+              fontFamily: 'League Spartan'
+            }}>WARPVPN</h1>
+            <p style={{
+              fontFamily: 'Poppins'
+            }}>
+              We are the bridge that connects hearts and minds globally.Through
               seamless video communication.
             </p>
           </div>
@@ -24,13 +28,13 @@ export const Footer = () => {
             <Link to={'/purge'}>Purge Cache</Link>
           </div>
         </div>
-      </Container>
+      </Container >
 
       <hr className='custom-hr' />
 
       <p className='text-end cpr'>
         Copyright © 2024 WARPVPN, Inc. All rights reserved
       </p>
-    </div>
+    </div >
   );
 };

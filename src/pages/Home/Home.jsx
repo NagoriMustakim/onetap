@@ -62,7 +62,7 @@ export const Home = () => {
               Your connection to WARPVPN is fast and reliable wherever you live and wherever you go.
             </p>
 
-            <div className="container mt-4">
+            <div className="container mt-4" style={{ fontFamily: 'Helvetica Neue' }}>
               <div className="row align-items-center mb-3">
                 <div className="col-md-2">
                   <span className="provider-name">WarpVPN</span>

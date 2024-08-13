@@ -41,7 +41,7 @@ export const Families = () => {
         DNS directory across all your devices will accelera
         almost everything you do online.</p>
 
-      <div className="container mt-4" style={{ width: "500px" }}>
+      <div className="container mt-4" style={{ width: "500px", fontFamily: 'Helvetica Neue' }}>
         <div className="row align-items-center mb-3">
           <div className="col-md-2">
             <span className="provider-name">WarpVPN</span>

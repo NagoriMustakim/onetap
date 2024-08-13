@@ -2,14 +2,15 @@ import React from 'react'
 
 export const Cache = () => {
     return (
-        <div className='d-flex flex-column mb-3 faq-cont' style={{ background: "#FFEEF7" }}>
+        <div className='d-flex flex-column mb-3 faq-cont' style={{ background: "#FFEEF7", fontFamily: "Montserrat" }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '5rem' }}>
                 <h1 style={{ fontSize: "45px", fontWeight: "bold", marginBottom: "6rem" }}>Purge Cache</h1>
             </div>
+
             <div className="outer-container">
                 <div className="inner-container">
                     <h1 style={{ fontSize: "45px", fontWeight: "bold", marginTop: "2rem", textAlign: "center" }}>WARPVPN</h1>
-
+                    <p>WARPVPN’s Purge Cache tool allows you to refresh WARPVPNS's DNS cache for domain names. To refresh the cache for a domain name, enter the name for the domain below, pick the DNS record type and then hit the Purge Cache.</p>
                     <div className="d-flex flex-column mb-3 p-4 border rounded" style={{ maxWidth: '400px', margin: 'auto', marginTop: "3rem", backgroundColor: '#f9f9f9' }}>
                         <p className="h5 mb-4">Purge cache for domain</p>
                         <form >

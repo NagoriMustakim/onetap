@@ -47,7 +47,7 @@ export const Download = () => {
       <h1 className='center title-home'>WARPVPN</h1>
 
       <div class="center">
-        <p className="free-app" style={{  }}>The free app that makes your Internet safer.</p>
+        <p className="free-app" style={{}}>The free app that makes your Internet safer.</p>
       </div>
       <section className="download-page pt-100" style={{ marginTop: "4rem" }}>
         <Container>
@@ -64,7 +64,7 @@ export const Download = () => {
               <div className="download-block wrap-contrainer mac-width" onClick={() => handleOsChange('mac')}>
                 <div className="buttons-downloads">
                   <Image src={macLogo} alt="MacOS" />
-                  <div className='center os-text'>MacOS</div>
+                  <div className='mt-2 os-text'>MacOS</div>
                 </div>
               </div>
             </Col>
@@ -80,7 +80,7 @@ export const Download = () => {
 
           <div className="copy_part">
             <div className="text-center">
-              <p>{`Quick install by copy the command for your ${os === "windows" ? "Windows" : os === "mac" ? "MacOS" : "Ubuntu"}, paste it in your ${os === "windows" ? "Command Prompt" : os === "mac" ? "Terminal" : "Terminal"}, and start using WarpVPN!`}</p>
+              <p className='quick-install'>{`Quick install by copy the command for your ${os === "windows" ? "Windows" : os === "mac" ? "MacOS" : "Ubuntu"}, paste it in your ${os === "windows" ? "Command Prompt" : os === "mac" ? "Terminal" : "Terminal"}, and start using WarpVPN!`}</p>
             </div>
             <div className="download-block cmd">
               <img src={copyLogo} alt="Copy" className="copy-logo" />
@@ -97,7 +97,7 @@ export const Download = () => {
           <div className="center-content">
             <Col lg="4" md="6">
               <div className="download-block-two">
-                <h2>Mobile</h2>
+                <h2 style={{ fontFamily: "Montserrat" }}>Mobile</h2>
                 <div className="download-buttons">
                   <div href="#" className="download-button apple">
                     <svg
@@ -126,7 +126,7 @@ export const Download = () => {
                     </div>
                   </div>
                 </div>
-                <p style={{ fontWeight: 500, marginTop: "10px" }}>Expected to release by end of November 2024</p>
+                <p style={{ fontWeight: 400, marginTop: "10px", fontFamily: "Montserrat", fontSize: "16px" }}>Expected to release by end of November 2024</p>
               </div>
             </Col>
           </div>
