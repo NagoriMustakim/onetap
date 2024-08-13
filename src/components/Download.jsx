@@ -45,6 +45,10 @@ export const Download = () => {
   return (
     <>
       <h1 className='center title-home'>WARPVPN</h1>
+
+      <div class="center">
+        <p className="free-app" style={{  }}>The free app that makes your Internet safer.</p>
+      </div>
       <section className="download-page pt-100" style={{ marginTop: "4rem" }}>
         <Container>
           <div className="center">

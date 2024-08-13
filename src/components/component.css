@@ -10,12 +10,10 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 44.16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .families-txt {
     color: #646363ff;
-    font-family: Clio Bold;
     font-size: 21.6px;
     font-weight: 700;
     line-height: 21.6px;
@@ -24,7 +22,7 @@
 
 .drp {
     position: relative;
-    left: 45%;
+    left: 5%;
     display: flex;
     flex-direction: row;
     width: fit-content;
@@ -37,18 +35,21 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    font-family: Arial, sans-serif;
 }
 
 /* Button for dropdown with label and SVG */
 .dropdown-btn {
     background-color: transparent;
     border: none;
-    font-size: 16px;
-    color: #1F1F6D;
+    color: #646363ff;
     cursor: pointer;
     display: flex;
     gap: 6px;
+    font-size: 21.6px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+
 }
 
 /* Label inside button */
@@ -70,7 +71,6 @@
 
 /* Dropdown link styling */
 .dropdown-content a {
-    color: #1F1F6D;
     padding: 2px 4px;
     text-decoration: none;
     display: block;
@@ -95,8 +95,11 @@
 
 /* Button hover effect */
 .dropdown-btn:hover {
-    color: #1F1F6D;
+    color: #646363ff;
 }
+
+
+
 
 /* Download component css */
 .wrap-contrainer {
@@ -108,6 +111,15 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+
+.free-app {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    max-width: 929px;
 }
 
 .windows-width {
@@ -180,8 +192,10 @@
     flex-grow: 1;
     margin: 0;
     padding: 0 10px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
+    line-height: 24px;
+    color: #565656;
 }
 
 
@@ -236,7 +250,6 @@
     }
 
     p {
-        font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-weight: 400;
         margin: 0;
@@ -301,7 +314,6 @@
 }
 
 .btn {
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding: 12px 2rem;
@@ -345,7 +357,6 @@
     /* Grey background color */
     color: white;
     text-decoration: none;
-    font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -491,7 +502,7 @@
 .cpr {
     margin-right: 4rem;
     font-size: 18.76px;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom: 4rem;
 }
 

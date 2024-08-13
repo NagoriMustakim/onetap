@@ -1,12 +1,15 @@
+@font-face {
+  font-family: clio-bold;
+  src: url('./letype-cliobold-bold.otf');
+}
+
 :root {
   background-color: #FFFFFF;
+  font-family: clio-bold
 }
+
 
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;  */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: clio-bold;
 }
