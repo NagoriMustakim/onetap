@@ -29,7 +29,7 @@ export const Home = () => {
           <Image src={Home2} className='img-home2'></Image>
           <Image src={Home1} className='img-home1'></Image>
         </Container>
-        <div className='d-flex flex-row mt-12'>
+        <Container className='d-flex flex-row mt-12'>
           <Image src={Home3} className='img-home3'></Image>
           <div className='mt'>
             <p className='safer-title'>Fast. Free. Private.</p>
@@ -38,7 +38,7 @@ export const Home = () => {
               WarpVPN prevents anyone from snooping on you by encrypting more of the traffic leaving your device. We believe privacy is a right. We won't sell your data, ever.</p>
             <button className='learn-btn'>Share with twitter</button>
           </div>
-        </div>
+        </Container>
         <Container className='d-flex flex-row'>
           <Image src={Home4} className='img-home4'></Image>
           <div className='safer'>
@@ -123,10 +123,9 @@ export const Home = () => {
         <Container className='d-flex flex-row'>
           <Image src={Home8} className='img-home8'></Image>
           <div className='fast'>
-            <p className='safer-title'>Fast. Free. Private.</p>
+            <p className='safer-title'>New: use WARPVPN with your team</p>
             <hr className="hr" />
-            <p className='first-txt'>Your Internet service provider can see every site and app you use even if they’re encrypted. Some providers even sell this data, or use it to target you with ads.
-              WarpVPN prevents anyone from snooping on you by encrypting more of the traffic leaving your device. We believe privacy is a right. We won't sell your data, ever.</p>
+            <p className='first-txt'>Bring the power of WARPVPN to your business by integrating WARPVPN with Gateway. Enroll user devices in your organization and protect your remote workforce from threats online.</p>
             <button className='learn-btn'>Share with twitter</button>
           </div>
         </Container>

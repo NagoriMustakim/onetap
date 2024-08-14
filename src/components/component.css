@@ -174,7 +174,6 @@
 
 .cmd {
     border: 3px solid #dcdcdc;
-    width: 100%;
     max-width: 900px;
     display: flex;
     align-items: center;
@@ -408,7 +407,7 @@
 .footer-logo p {
     margin-top: 10px;
     color: #333333;
-    max-width: 100%;
+    max-width: 430px;
     font-size: 1.3rem;
 }
 
@@ -417,7 +416,7 @@
     font-size: 1.3rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 6rem;
     font-weight: 500;
     font-family: 'Poppins';
 }
