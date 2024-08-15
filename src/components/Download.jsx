@@ -44,7 +44,7 @@ export const Download = () => {
   };
   return (
     <>
-      <h1 className='center title-home'>WARPVPN</h1>
+      <h1 className='title-home'>WARPVPN</h1>
 
       <div class="center">
         <p className="free-app" style={{}}>The free app that makes your Internet safer.</p>
