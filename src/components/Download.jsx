@@ -11,6 +11,8 @@ export const Download = () => {
   const [isCopied, setCopied] = useState(false);
 
   useEffect(() => {
+    console.log("vdfvfdbdf");
+    
     const getUserOS = () => {
       const { platform } = window.navigator;
       if (platform.indexOf("Win") !== -1) return "windows";
@@ -20,6 +22,7 @@ export const Download = () => {
     };
 
     const detectedOs = getUserOS();
+    
     setOs(detectedOs);
     document.querySelector(`.${detectedOs}-width`)?.classList.add("dynaBG");
   }, []);

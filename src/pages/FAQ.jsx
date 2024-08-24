@@ -1,7 +1,16 @@
 import React from 'react'
 import Home7 from '../assets/home7.svg'
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem, Image } from 'react-bootstrap'
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
+import { useEffect } from "react"
 export const FAQ = () => {
+  ReactGA.initialize('G-NWWERD10E1')
+  const location = useLocation();
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
+
   return (
     <div>
       <div className='faq-cont'>
