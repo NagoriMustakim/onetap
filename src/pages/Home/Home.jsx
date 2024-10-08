@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Download } from '../../components/Download'
 import Home1 from '../../assets/home1.svg'
 import Home2 from '../../assets/home2.svg'
@@ -11,6 +11,9 @@ import Home8 from '../../assets/home8.svg'
 import { Container, Image } from 'react-bootstrap'
 import './styles.css'
 export const Home = () => {
+  useEffect(() => {
+    window.location.href = 'https://one.one.one.one'
+  }, [])
   return (
     <>
       <Download />
